@@ -1,7 +1,7 @@
 NSBSubscription
 ===============
 
-List, find and delete NServiceBus subscriptions from Raven
+List, aggregate, find and delete NServiceBus subscriptions from Raven
 
 List raw subscriptions
 ````
