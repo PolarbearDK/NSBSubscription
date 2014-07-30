@@ -15,7 +15,7 @@ namespace Miracle.NSBSubscription.Arguments
         {
         }
 
-        public virtual void Cleanup()
+        public void Cleanup()
         {
         }
 

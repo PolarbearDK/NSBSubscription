@@ -9,7 +9,7 @@ using Raven.Client.Document;
 
 namespace Miracle.NSBSubscription
 {
-    internal class Program
+    internal static class Program
     {
         private static void Main(string[] args)
         {
