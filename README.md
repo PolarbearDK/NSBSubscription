@@ -1,7 +1,14 @@
 NSBSubscription
 ===============
 
-List, aggregate, find and delete NServiceBus subscriptions from Raven
+Command line tool to List, aggregate, find and delete NServiceBus subscriptions from Raven
+
+List all options (help)
+````
+NSBSubscription -? 
+or
+NSBSubscription -help
+````
 
 List raw subscriptions
 ````
@@ -16,7 +23,7 @@ NSBSubscription -url http://my.raven.host:8081 statistics -on queue
 NSBSubscription stat -on typename
 ````
 
-Delete subscriptions:
+Delete subscriptions (Seems to be working, but check result!):
 ````
 NSBSubscription delete where machine = 1.2.3.4
 NSBSubscription -url http://localhost:8080 delete where queue = someservice and machine = somename
